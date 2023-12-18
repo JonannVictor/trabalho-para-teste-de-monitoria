@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0%;
 }
@@ -10,8 +10,8 @@ header {
   align-items: center;
 }
 
-footer{
-  background-color:darkgoldenrod;
+footer {
+  background-color: darkgoldenrod;
   text-align: center;
   font-size: small;
   color: white;
@@ -20,8 +20,8 @@ footer{
 
 form {
   background-color: #f4f4f4;
-  max-width: 600px; /* Largura máxima para o formulário */
-  margin: 20px auto; /* Centraliza o formulário */
+  max-width: 600px;
+  margin: 20px auto;
   padding: 20px;
 }
 
@@ -30,21 +30,24 @@ form label {
   margin-bottom: 10px;
 }
 
-#Nome,#number,#mens {
-  width: calc(100% - 20px); /* Subtrai o padding para manter a largura correta */
+#Nome,
+#number,
+#mens {
+  width: calc(100% - 20px);
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
 }
 
 .video-container {
-  max-width: 800px; 
-  margin: 0 auto; 
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.video-container, video {
-  width: 100%; 
+.video-container,
+video {
+  width: 100%;
   height: auto;
 }
 
@@ -54,15 +57,15 @@ form label {
   color: white;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  transition: background-color 0.3s ease;
 }
 
-/* Altera a cor de fundo ao passar o mouse */
 #botão:hover {
   background-color: #644905;
 }
 
-p,h2{
+p,
+h2 {
   display: flex;
   justify-content: center;
 }
