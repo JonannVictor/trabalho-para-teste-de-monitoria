@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JP Mel</title>
-  <link rel="shortcut icon" href="img e video/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="CSS/general.css">
+  <link rel="shortcut icon" href="img e video/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="CSS/general.css" />
 </head>
+
 <body>
-  
+  <header>
+    <img src="img e video/logo.png" alt="logo da empresa" width="132" height="130" />
+    <h1>JP Mel Puro e Derivados</h1>
+  </header>
+  <main>
+    <section class="video">
+      <div class="video-container">
+        <video src="img e video/logo.png" controls>
+          <source src="mov_bbb.mp4" type="video/mp4" />
+          <source src="mov_bbb.ogg" type="video/ogg" />
+        </video>
+        <h2>Apresentação</h2>
+        <p>
+          Aqui você encontra a apresentação do site JP Mel Puro e Derivados. O vídeo é uma introdução
+        </p>
+      </div>
+      <form class="form" action="/action_page.php" method="post" autocomplete="on">
+        <div class="container">
+          <label>
+            <input type="text" id="Nome" placeholder="Seu Nome" required="">
+          </label>
+          <label>
+            <input type="tel" id="number" placeholder="Seu Telefone" required="" maxlength="11'">
+          </label>
+          <textarea name="mensagem" placeholder="Sua Mensagem" cols="30" rows="10" required></textarea>
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+  </main>
+  <footer>&copy; 2023 Direitos Autorais de José Pualo G. Fernandes &CIA</footer>
 </body>
 </html>
