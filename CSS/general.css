@@ -40,15 +40,20 @@ form label {
 }
 
 .video-container {
-  max-width: 800px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 18px;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .video-container,
 video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 #botão {
